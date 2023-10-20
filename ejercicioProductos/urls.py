@@ -25,5 +25,7 @@ urlpatterns = [
     path("electronica/",electronica),
     path("ropa/",ropa),
     path("aplicacion/",renderTemplates),
+    path("Juegos1/",Juegos1),
+    path("Juegos2/", Juegos2)
 
 ]
