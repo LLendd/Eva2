@@ -29,6 +29,6 @@ def Juegos3(request):
         'fecha':"3 de junio de 2015",
         'descargas':"100k +",
     }
-    return render(request,'templatesApp/productos2.html',data)
+    return render(request,'templatesApp/juego3.html',data)
 
 
