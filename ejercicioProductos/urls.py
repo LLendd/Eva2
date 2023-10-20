@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 from productosApp.views import *
+from app2.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",index),
